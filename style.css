@@ -1,0 +1,21 @@
+html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+}
+html #myBtn {
+  background: #ff0066;
+  border: 0;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  font-size: 1.15em;
+  font-family: "Poppins-Bold";
+  line-height: 60px;
+  outline: 0;
+  width: 200px;
+}
