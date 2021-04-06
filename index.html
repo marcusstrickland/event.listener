@@ -21,6 +21,27 @@
 
 		<button id="myBtn">click me dude</button>
 
+		<script type="text/javascript">
+			
+			function firstFunction() {
+
+				alert("1st Function!");
+
+			}
+						
+			function secondFunction() {
+
+				alert("2nd Function!");
+
+			}
+
+			var btn = document.getElementById("myBtn");
+
+			btn.addEventListener("click", firstFunction);
+			btn.addEventListener("click", secondFunction);
+
+		</script>
+
 
 
 
@@ -29,6 +50,6 @@
 
 	</body>
 
-	<script type="text/javascript" src="js/function.min.js"></script>
+	<!--<script type="text/javascript" src="js/function.min.js"></script>-->
 
 </html>
