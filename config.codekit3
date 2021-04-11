@@ -9,6 +9,128 @@
   ],
   "creatorBuild" : "34081",
   "files" : {
+    "\/colors.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/colors.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/backtotopBtn.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/backtotopBtn.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/bootstrap.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/css\/bootstrap.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/ghpages-materialize.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/ghpages-materialize.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/css\/parallax.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/css\/parallax.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/images\/favicon.ai" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon.ai",
+      "oF" : 0
+    },
+    "\/images\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 30688,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/logo.ai" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/logo.ai",
+      "oF" : 0
+    },
+    "\/images\/logo.png" : {
+      "ft" : 32768,
+      "iS" : 3203,
+      "oA" : 0,
+      "oAP" : "\/images\/logo.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/images\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -16,6 +138,17 @@
       "oA" : 0,
       "oAP" : "\/index.html",
       "oF" : 0
+    },
+    "\/js\/bootstrap.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/js\/bootstrap.min-min.js",
+      "oF" : 0,
+      "sC" : 1,
+      "tS" : 0
     },
     "\/js\/function.js" : {
       "bF" : 0,
@@ -50,6 +183,506 @@
       "sC" : 1,
       "tS" : 0
     },
+    "\/oswald\/.sass-cache\/f0f3de1ace6e2989384a18a3f0a84a95083c889b\/fonts.scssc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/.sass-cache\/f0f3de1ace6e2989384a18a3f0a84a95083c889b\/fonts.scssc",
+      "oF" : 0
+    },
+    "\/oswald\/.sass-cache\/f541dc5f40a747b0ab9e8a6d687df302d992ffaf\/fonts.scssc" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/.sass-cache\/f541dc5f40a747b0ab9e8a6d687df302d992ffaf\/fonts.scssc",
+      "oF" : 0
+    },
+    "\/oswald\/fonts.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/fonts.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/oswald\/generator_config.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/generator_config.txt",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-bold-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-bold-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-bold-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-bold-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-bold-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-bold-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-bold-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-bold-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-bold-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-bold-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-bold-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-bold-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-demibold-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-demibold-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-demibold-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-demibold-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-demibold-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-demibold-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-demibold-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-demibold-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-demibold-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-demibold-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-demibold-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-demibold-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-extralight-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-extralight-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-extralight-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-extralight-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-extralight-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-extralight-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-extralight-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-extralight-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-extralight-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-extralight-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-extralight-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-extralight-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-heavy-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-heavy-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-heavy-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-heavy-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-heavy-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-heavy-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-heavy-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-heavy-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-heavy-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-heavy-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-heavy-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-heavy-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-light-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-light-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-light-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-light-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-light-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-light-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-light-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-light-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-light-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-light-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-light-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-light-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-medium-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-medium-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-medium-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-medium-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-medium-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-medium-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-medium-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-medium-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-medium-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-medium-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-medium-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-medium-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-regular-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-regular-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-regular-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-regular-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-regular-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-regular-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-regular-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-regular-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-regular-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-regular-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-regular-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-regular-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-stencil-demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-stencil-demo.html",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-stencil-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-stencil-webfont.eot",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-stencil-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/oswald\/oswald-stencil-webfont.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/oswald\/oswald-stencil-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-stencil-webfont.ttf",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-stencil-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-stencil-webfont.woff",
+      "oF" : 0
+    },
+    "\/oswald\/oswald-stencil-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/oswald-stencil-webfont.woff2",
+      "oF" : 0
+    },
+    "\/oswald\/specimen_files\/grid_12-825-55-15.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/specimen_files\/grid_12-825-55-15-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/oswald\/specimen_files\/specimen_stylesheet.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/oswald\/specimen_files\/specimen_stylesheet-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/poppins\/fonts.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/poppins\/fonts.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/poppins\/Poppins-Bold.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/poppins\/Poppins-Bold.ttf",
+      "oF" : 0
+    },
+    "\/poppins\/Poppins-Regular.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/poppins\/Poppins-Regular.ttf",
+      "oF" : 0
+    },
+    "\/poppins\/Poppins-Thin.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/poppins\/Poppins-Thin.ttf",
+      "oF" : 0
+    },
     "\/style.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -76,13 +709,19 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/test.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/test.html",
-      "oF" : 0
+    "\/variables.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/variables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
     }
   },
   "hooks" : [

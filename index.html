@@ -3,15 +3,25 @@
 
 	<head>
 
+		<meta charset="utf-8" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 		<title>Event Listener</title>
+
+        <link rel="icon" 
+              type="image/png" 
+              href="images/favicon.png">
 
 		<link rel="stylesheet" type="text/css" href="style.css?v=0">
 
+		<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
 	</head>
 
-
-
-	<body>
+	<body data-spy="scroll" data-offset="15" data-target="#myScrollspy">
 
 
 
@@ -19,28 +29,257 @@
 
 
 
-		<button id="myBtn">click me dude</button>
+		<div id="container" class="container-fluid">
 
-		<script type="text/javascript">
-			
-			function firstFunction() {
 
-				alert("1st Function!");
 
-			}
-						
-			function secondFunction() {
 
-				alert("2nd Function!");
 
-			}
 
-			var btn = document.getElementById("myBtn");
 
-			btn.addEventListener("click", firstFunction);
-			btn.addEventListener("click", secondFunction);
+			<div id="navigation" class="row">
 
-		</script>
+				<div class="col-12">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-12 col-md-1 logo"><a href="index2.html">
+								
+								<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									 viewBox="0 0 1119.4 1440" style="enable-background:new 0 0 1119.4 1440;" xml:space="preserve">
+								<g>
+									<path d="M0,0.3c137.5,0,272.3,0,407,0c128.2,0,256.4-1,384.6,1.1c19.7,0.3,43.7,10.7,58,24.5c83.7,80.6,165.6,163,246.7,246.2
+										c11.6,11.9,22.1,31.2,22.1,47.1c1.2,368.6,0.9,737.2,0.8,1105.8c0,4-0.7,7.9-1.4,15.1c-371.6,0-743.3,0-1117.9,0
+										C0,962.4,0,483.9,0,0.3z M31.1,1119.7c353.3,0,703.7,0,1053.1,0c0-267.8,0-532.7,0-800.8c-96.1,0-189.1,0-286.7,0
+										c0-97.1,0-191,0-284.5c-258,0-511.2,0-766.4,0C31.1,396.5,31.1,756.6,31.1,1119.7z M833,285.3c78.2,0,151.8,0,218.6,0
+										c-72.2-72-146.2-145.7-218.6-217.9C833,136.2,833,210,833,285.3z M559,1355.8c-1.4,5.3-2.7,10.7-4.1,16
+										c18.9,2.8,39.6,11.7,56.1,6.7c18.9-5.7,40.9-20.5,49.3-37.4c11.8-23.8-2.7-46.1-27.2-58.6c-10.7-5.4-23.6-8.1-31.9-15.9
+										c-8.6-8-20.2-23.9-17.3-30.6c4.6-10.6,19.3-19.5,31.5-23.2c10.9-3.3,24.3,1.5,36.6,2.7c0.9-4.9,1.8-9.8,2.8-14.7
+										c-18.2-2.1-37.9-9.3-54.2-4.8c-15.6,4.3-35,18.8-39.3,32.9c-4.2,13.8,5,35.6,15.1,48.6c8.9,11.3,29.7,12.7,40.8,23.2
+										c10,9.5,21.8,27.8,18.7,37.8c-3.3,10.6-22.4,19.7-36.1,22.8C587.2,1364,572.7,1357.9,559,1355.8z M512.8,1194.7
+										c-4.4,0.2-8.9,0.5-13.3,0.7c0,24.9,0.6,49.9-0.1,74.8c-1.2,42.3,15.1,94.2-61.3,97.6c48.5,21.9,77.3,10.2,81.6-31.3
+										c4.4-42.1,2.3-84.9,2.2-127.5C521.8,1204.2,516,1199.4,512.8,1194.7z"/>
+									<path d="M689,883.7c-12.3-41.9-1.1-62.3,35.5-75.3c53.7-19.1,105.2-44.3,167.9-71.3c-62.5-26.8-115.6-52.3-170.6-72.2
+										c-37.8-13.7-44.4-35.8-31.9-74c84.4,38.6,168,76,250.7,115.5c20,9.6,17.5,53.5-3.3,63.3C855.5,808.2,773,845.2,689,883.7z"/>
+									<path d="M426.9,590.7c13.9,41.2,2.4,61.7-33.6,75.1c-52.8,19.7-103.7,44.6-164.1,71.2c59.3,26.3,108.9,51.4,160.7,70.2
+										c37.4,13.5,51.4,33.4,37.5,76.5c-57.7-26.8-114.9-53.5-172.1-80c-24.1-11.2-49.3-20.7-72-34.3c-9.1-5.4-18-19.9-17.7-29.9
+										c0.4-11.8,7.9-29.3,17.4-34C262.7,666.2,343.7,629.4,426.9,590.7z"/>
+									<path d="M649.7,506.6c-38.4,129.7-74.5,256-114.7,381c-4.2,13-31.9,18.4-48.8,27.3c-3-3.8-6.1-7.6-9.1-11.4
+										c6.4-23.7,12.5-47.6,19.4-71.2c28.5-96.8,59.4-193.1,84.9-290.7C591.7,502.9,610.7,496.7,649.7,506.6z"/>
+								</g>
+								</svg>
+
+							</a></div>
+
+							<div id="myScrollspy" class="col-12 offset-md-5 col-md-6 nav navbar">
+								
+								<div class="menu-primary-menu-links-container">
+									
+									<ul class="menu">
+
+										<li><a class="list-group-item list-group-item-action active" href="#addEventListener">addEventListener<hr></a></li>
+
+										<li><a class="list-group-item list-group-item-action" href="#addClass">addClass<hr></a></li>
+
+									</ul>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div><!--end navigation-->
+
+
+
+
+
+
+
+			<div id="addEventListener" class="row page">
+
+				<div class="col-12">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-12"><h3>addEventListener</h3></div>
+
+							<div class="col-12 col-md-6 divider">
+
+								<h6>code</h6>
+
+<pre><code>function firstFunction() {
+
+	alert("1st function!");
+
+}
+
+function secondFunction() {
+
+	alert("2nd function!");
+
+}
+
+var btn = document.getElementByID("myBtn");
+
+btn.addEventListener("click", firstFunction);
+btn.addEventListener("click", secondFunction);</code></pre>
+
+							</div>
+
+							<div class="col-12 col-md-6 divider">
+
+								<h6>demo</h6>
+
+								<button id="myBtn">click me</button>
+
+								<script type="text/javascript">
+									
+									function firstFunction() {
+
+										alert("1st function!");
+
+									}
+
+									function secondFunction() {
+
+										alert("2nd function!");
+
+									}
+
+									var btn = document.getElementByID("myBtn");
+
+									btn.addEventListener("click", firstFunction);
+									btn.addEventListener("click", secondFunction);
+
+								</script>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div><!--end addEventListener-->
+
+
+
+
+
+
+
+			<div id="addClass" class="row page">
+
+				<div class="col-12">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-12"><h3>addClass</h3></div>
+
+							<div class="col-12 col-md-6 divider">
+
+								<h6>code</h6>
+
+<pre><code>$('input:checkbox').change(function () {
+	
+	if($(this).is(":checked")) {
+
+		$('div.display').addClass("dates");
+	
+	} else {
+
+		$('div.display').removeClass("dates");
+
+	}
+
+});</code></pre>
+
+							</div>
+
+							<div class="col-12 col-md-6 divider">
+
+								<h6>demo</h6>
+
+								<div class="container-fluid">
+
+									<div class="row">
+
+										<div class="col-6 checkbox">
+
+											<input type="checkbox" name=""><span>[check to display items]</span>
+
+										</div>
+
+										<div class="col-6 checkbox">
+
+											<div class="display">
+
+												<ul>
+
+													<li><a href="#">apples</a></li>
+
+													<li><a href="#">oranges</a></li>
+
+													<li><a href="#">bananas</a></li>
+
+												</ul>
+
+											</div>
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<script type="text/javascript">
+									
+									$('input:checkbox').change(function () {
+										
+										if($(this).is(":checked")) {
+
+											$('div.display').addClass("dates");
+										
+										} else {
+
+											$('div.display').removeClass("dates");
+
+										}
+
+									});
+
+								</script>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div><!--end addClass-->
+
+
+
+
+
+
+
+		</div><!--end container-->
 
 
 
@@ -49,7 +288,5 @@
 
 
 	</body>
-
-	<!--<script type="text/javascript" src="js/function.min.js"></script>-->
 
 </html>
