@@ -83,6 +83,8 @@
 
 										<li><a class="list-group-item list-group-item-action" href="#addClass">addClass<hr></a></li>
 
+										<li><a class="list-group-item list-group-item-action" href="#slider">slider<hr></a></li>
+
 									</ul>
 
 								</div>
@@ -149,7 +151,7 @@ btn.addEventListener("click", secondFunction);</code></pre>
 										alert("1st function!");
 
 									}
-
+									
 									function secondFunction() {
 
 										alert("2nd function!");
@@ -246,13 +248,13 @@ btn.addEventListener("click", secondFunction);</code></pre>
 								</div>
 
 								<script type="text/javascript">
+
+									$('input:checkbox').change(function() {
 									
-									$('input:checkbox').change(function () {
-										
 										if($(this).is(":checked")) {
 
 											$('div.display').addClass("dates");
-										
+
 										} else {
 
 											$('div.display').removeClass("dates");
@@ -272,6 +274,83 @@ btn.addEventListener("click", secondFunction);</code></pre>
 				</div>
 
 			</div><!--end addClass-->
+
+
+
+
+
+
+
+			<div id="slider" class="row page">
+
+				<div class="col-12">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-12"><h3>slider</h3></div>
+
+							<div class="col-12 col-md-6 divider">
+
+								<h6>code</h6>
+								
+<pre><code>var range = document.querySelector("#range");
+var form = document.querySelector("#form");
+
+range.addEventListener("input.slider", function() {
+  	form.style["font-size"] = this.value + "em";
+});</code></pre>
+
+							</div>
+
+							<div class="col-12 col-md-6 divider">
+
+								<h6>demo</h6>
+
+								<div id="slider" class="container-fluid">
+
+									<div class="row">
+
+										<div class="col-12 slider-cell">
+								
+											<input type="range" name="" id="range" min="1.0" max="3.0" step=".1" value="2.0">
+
+										</div>
+
+										<div class="col-12 slider-cell">
+
+											<form id="form">
+												<label for="">Label</label>
+												<input type="text" value="Some Input Value" />
+											</form>
+
+										</div>
+
+									</div>
+
+								</div>
+
+								<script type="text/javascript">
+										
+									var range = document.querySelector("#range");
+									var form = document.querySelector("#form");
+
+									range.addEventListener("input", function() {
+									  	form.style["font-size"] = this.value + "em";
+									});
+
+								</script><!---->
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+
+			</div><!--end slider-->
 
 
 

@@ -2,6 +2,7 @@
 @import "variables";
 
 @import "css/bootstrap";
+@import "css/input.range.style";
 
 
 
@@ -49,9 +50,9 @@ body {@include html-body();
 
 					ul.menu {
 
-						li {border-right:1px solid $brown;display:block;float:left;line-height:60px;text-align:center;width:50%;
+						li {border-right:1px solid $brown;display:block;float:left;line-height:60px;text-align:center;width:33.33333333333337%;
 
-							&:nth-child(2) {border-right:0;}
+							&:nth-child(3) {border-right:0;}
 
 							a {background:transparent;border:0;color:$gray;text-decoration:none;
 
@@ -125,6 +126,16 @@ body {@include html-body();
 					}
 
 					.display.dates {display:block;}
+
+				}
+
+				#slider {min-height:33.33333333333337vh;position:absolute;top:12.5%;left:50%;transform:translate(-50%,-12.5%);
+
+					.slider-cell {border-bottom:1px solid $gray;min-height:15vh;display:flex;align-items:center;justify-content: center;
+
+						&:nth-child(2) {border-bottom:0;}
+
+					}
 
 				}
 
